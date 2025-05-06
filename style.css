@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.cabecalho h3{
+    color: rgb(206, 206, 8);
+}
+
+p .alinha{
+    text-align: right;
+}
+.img-agro{
+    width: 300px;
+}
+
+.br-3{
+    border-radius: 15px;
+}
+
+.img-card{
+    max-height: 250px;
+}
+
+.img-slide{
+    max-height: 400px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Estilos para a seção "O que é o Agrinho?" */
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+/* Estilos para a seção de objetivos */
+.text-center img {
+    margin-bottom: 1rem;
+}
+
+/* Estilos para a seção "Agrinho 2025" */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ajuste no espaçamento dos cards */
+.col-md-4 {
+    margin-bottom: 20px; /* Adiciona um espaço entre os cards em telas maiores */
+}
+
+/* Garante que os cards ocupem 100% da largura em telas menores */
+@media (max-width: 767.98px) {
+    .col-md-4 {
+        width: 100%;
+    }
+}
+
+/* Mais um ajuste no espaçamento da seção de cards */
+.row.pt-5 > .col {
+    margin-bottom: 20px;
+}
