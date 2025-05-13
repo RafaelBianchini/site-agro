@@ -11,13 +11,15 @@
 </head>
 
 <body>
-    <section class="cabecalho">
-        <h1>AGRINHO 2025</h1>
-        <h3>Festejando Conexão Campo Cidade</h3>
-    </section>
+    <header class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h1>AGRINHO 2025</h1>
+            <h3>Festejando Conexão Campo Cidade</h3>
+        </div>
+    </header>
 
-    <nav class="navbar navbar-expand-lg bg-success">
-        <div class="container-fluid ">
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,158 +27,172 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="index.html">Página Inicial |</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="energia.html">Energia Rural |</a>
+                        <a class="nav-link" href="agua.html">Acessibilidade a Água</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="agua.html">Acessibilidade a Água |</a>
+                        <a class="nav-link" href="energia.html">Energia Rural</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="producao.html">Produção</a>
+                        <a class="nav-link" href="producao.html">Produção</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section class="py-5 bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 offset-md-2 text-center">
-                    <h2>O Programa Agrinho</h2>
-                    <p class="lead">O Agrinho é o maior programa de educação ambiental do Brasil, promovido pelo SENAR Paraná em parceria com o Governo do Estado, por meio das Secretarias de Estado da Educação, da Agricultura e do Abastecimento, e com o apoio de diversas instituições públicas e privadas.</p>
-                    <p>Com uma abordagem pedagógica inovadora, o Agrinho leva temas relevantes para o dia a dia das crianças e adolescentes, como saúde, segurança, meio ambiente, cidadania e trabalho, estimulando a reflexão e a construção de conhecimentos de forma lúdica e interativa.</p>
+    <main>
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center">
+                        <h2>O Programa Agrinho</h2>
+                        <p class="lead">O Agrinho é o maior programa de educação ambiental do Brasil, promovido pelo SENAR Paraná em parceria com o Governo do Estado, por meio das Secretarias de Estado da Educação, da Agricultura e do Abastecimento, e com o apoio de diversas instituições públicas e privadas.</p>
+                        <p>Com uma abordagem pedagógica inovadora, o Agrinho leva temas relevantes para o dia a dia das crianças e adolescentes, como saúde, segurança, meio ambiente, cidadania e trabalho, estimulando a reflexão e a construção de conhecimentos de forma lúdica e interativa.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="py-5">
-        <div class="container">
-            <h3 class="text-center mb-4">Nossos Objetivos</h3>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <img src="./assets/image/educacao.png" alt="Ícone de educação" class="img-fluid mb-3" style="max-width: 80px;">
-                    <h4>Educação de Qualidade</h4>
-                    <p>Promover a educação integral e de qualidade, alinhada aos desafios do século XXI.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <img src="./assets/image/sustentabilidade.png" alt="Ícone de sustentabilidade" class="img-fluid mb-3" style="max-width: 80px;">
-                    <h4>Sustentabilidade</h4>
-                    <p>Despertar a consciência ambiental e a adoção de práticas sustentáveis.</p>
-                </div>
-                <div class="col-md-4 text-center">
-                    <img src="./assets/image/conexao.png" alt="Ícone de conexão" class="img-fluid mb-3" style="max-width: 80px;">
-                    <h4>Conexão Campo-Cidade</h4>
-                    <p>Fortalecer a ligação entre o ambiente rural e o urbano, valorizando a produção agrícola.</p>
+        <section class="py-5">
+            <div class="container">
+                <h3 class="text-center mb-4">Nossos Objetivos</h3>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-success">
+                            <div class="card-body text-center">
+                                <img src="./assets/image/educacao.png" alt="Ícone de educação" class="img-fluid mb-3" style="max-width: 80px;">
+                                <h5 class="card-title">Educação de Qualidade</h5>
+                                <p class="card-text">Promover a educação integral e de qualidade, alinhada aos desafios do século XXI.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-success">
+                            <div class="card-body text-center">
+                                <img src="./assets/image/sustentabilidade.png" alt="Ícone de sustentabilidade" class="img-fluid mb-3" style="max-width: 80px;">
+                                <h5 class="card-title">Sustentabilidade</h5>
+                                <p class="card-text">Despertar a consciência ambiental e a adoção de práticas sustentáveis.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-success">
+                            <div class="card-body text-center">
+                                <img src="./assets/image/conexao.png" alt="Ícone de conexão" class="img-fluid mb-3" style="max-width: 80px;">
+                                <h5 class="card-title">Conexão Campo-Cidade</h5>
+                                <p class="card-text">Fortalecer a ligação entre o ambiente rural e o urbano, valorizando a produção agrícola.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="py-5 bg-light">
-        <div class="container">
+        <section class="py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2>Agrinho 2025: Festejando Conexão Campo Cidade</h2>
+                        <p>O tema da edição de 2025 do Agrinho celebra a importante e rica conexão entre o campo e a cidade. Queremos destacar como esses dois ambientes se complementam e dependem um do outro, desde a produção de alimentos até a troca de conhecimentos e culturas.</p>
+                        <p>Participe e descubra as diversas formas de interação e os benefícios dessa união para o desenvolvimento sustentável!</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <img src="./assets/image/conexao_campo_cidade.jpg" alt="Imagem ilustrativa da conexão campo-cidade" class="img-fluid rounded" style="max-width: 400px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container py-5">
             <div class="row">
                 <div class="col-md-6">
-                    <h2>Agrinho 2025: Festejando Conexão Campo Cidade</h2>
-                    <p>O tema da edição de 2025 do Agrinho celebra a importante e rica conexão entre o campo e a cidade. Queremos destacar como esses dois ambientes se complementam e dependem um do outro, desde a produção de alimentos até a troca de conhecimentos e culturas.</p>
-                    <p>Participe e descubra as diversas formas de interação e os benefícios dessa união para o desenvolvimento sustentável!</p>
+                    <div>
+                        <h2>O que podemos falar sobre a zona rural?</h2>
+                        <p class="text-end">Fica claro que, muitas vezes, a desinformação sobre os produtos gerados no campo impede que os moradores das cidades compreendam todo o valor e o esforço envolvidos na produção rural. Essa falta de conhecimento pode gerar preconceitos, desvalorização dos alimentos e até desperdício. Promover a conexão entre o campo e a cidade, por meio de campanhas educativas e feiras de produtores, é fundamental para valorizar o trabalho do agricultor e incentivar o consumo consciente.</p>
+                    </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="./assets/image/conexao_campo_cidade.jpg" alt="Imagem ilustrativa da conexão campo-cidade" class="img-fluid br-3" style="max-width: 400px;">
+                    <div>
+                        <img class="img-fluid rounded" src="./assets/image/agro.png" alt="Imagem representativa de plantação." style="max-width: 350px;">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <div class="container">
-        <div class="row pt-5">
-            <div class="col ">
-                <div>
-                    <h2>O que podemos falar sobre a zona rural?</h2>
-                    <p class="alinha">Fica claro que, muitas vezes, a desinformação sobre os produtos gerados no campo
-                        impede que os
-                        moradores das cidades compreendam todo o valor e o esforço envolvidos na produção rural. Essa
-                        falta
-                        de conhecimento pode gerar preconceitos, desvalorização dos alimentos e até desperdício.
-                        Promover a
-                        conexão entre o campo e a cidade, por meio de campanhas educativas e feiras de produtores, é
-                        fundamental para valorizar o trabalho do agricultor e incentivar o consumo consciente.
-                    </p>
+            <h3 class="text-center py-5">Saiba um pouco mais sobre cada área.</h3>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 border-success">
+                        <img src="./assets/image/agua_card.jpg" class="card-img-top" alt="Imagem sobre acessibilidade à água" style="max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Acessibilidade à Água</h5>
+                            <p class="card-text">Explore os desafios e as soluções para garantir o acesso à água de qualidade no meio rural, um recurso essencial para a vida e a produção.</p>
+                            <a href="agua.html" class="btn btn-success">Saiba mais sobre Água</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col text-center">
-                <div>
-                    <img class="img-agro br-3" src="./assets/image/agro.png" alt="Imagem representativa de plantação.">
+                <div class="col">
+                    <div class="card h-100 border-success">
+                        <img src="./assets/image/energia_card.png" class="card-img-top" alt="Imagem sobre energia rural" style="max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Energia Rural</h5>
+                            <p class="card-text">Descubra as diferentes fontes de energia utilizadas no campo, as iniciativas de sustentabilidade e a importância da eletrificação rural.</p>
+                            <a href="energia.html" class="btn btn-success">Saiba mais sobre Energia</a>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="row pt-5">
-            <h3 class="text-center pb-3">Saiba um pouco mais sobre cada área.</h3>
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img src="./assets/image/agua_card.png" class="img-card card-img-top" alt="Imagem sobre acessibilidade à água">
-                    <div class="card-body">
-                        <h5 class="card-title">Acessibilidade à Água</h5>
-                        <p class="card-text">Explore os desafios e as soluções para garantir o acesso à água de qualidade no meio rural, um recurso essencial para a vida e a produção.</p>
-                        <a href="agua.html" class="btn btn-success">Saiba mais sobre Água</a>
+                <div class="col">
+                    <div class="card h-100 border-success">
+                        <img src="./assets/image/producao_card.png" class="card-img-top" alt="Imagem sobre produção e industrialização" style="max-height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Produção e Industrialização</h5>
+                            <p class="card-text">Aprofunde-se nos processos de produção agrícola e pecuária, a importância da industrialização e a geração de valor no campo.</p>
+                            <a href="producao.html" class="btn btn-success">Saiba mais sobre Produção</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img src="./assets/image/energia_card.png" class="img-card card-img-top" alt="Imagem sobre energia rural">
-                    <div class="card-body">
-                        <h5 class="card-title">Energia Rural</h5>
-                        <p class="card-text">Descubra as diferentes fontes de energia utilizadas no campo, as iniciativas de sustentabilidade e a importância da eletrificação rural.</p>
-                        <a href="energia.html" class="btn btn-success">Saiba mais sobre Energia</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card" style="width: 100%;">
-                    <img src="./assets/image/producao_card.png" class="img-card card-img-top" alt="Imagem sobre produção e industrialização">
-                    <div class="card-body">
-                        <h5 class="card-title">Produção e Industrialização</h5>
-                        <p class="card-text">Aprofunde-se nos processos de produção agrícola e pecuária, a importância da industrialização e a geração de valor no campo.</p>
-                        <a href="producao.html" class="btn btn-success">Saiba mais sobre Produção</a>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <div id="carouselExample" class="carousel slide pt-4 pb-3" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./assets/image/Energy (1).gif" class="img-slide d-block w-100" alt="Energia Sustentável no Campo">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Energia Sustentável no Campo</h5>
-                        <p>Iniciativas e tecnologias para uma energia mais limpa e eficiente no meio rural.</p>
+            <div id="carouselExampleIndicators" class="carousel slide py-4" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./assets/image/Energy (1).gif" class="d-block w-100 rounded" alt="Energia Sustentável no Campo" style="max-height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                            <h5>Energia Sustentável no Campo</h5>
+                            <p>Iniciativas e tecnologias para uma energia mais limpa e eficiente no meio rural.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./assets/image/Energy.gif" class="d-block w-100 rounded" alt="Inovação em Energia Rural" style="max-height: 400px; object-fit: cover;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded">
+                            <h5>Inovação em Energia Rural</h5>
+                            <p>Novas abordagens e o futuro da energia no setor agrícola.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="./assets/image/Energy.gif" class=" img-slide d-block w-100" alt="Inovação em Energia Rural">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Inovação em Energia Rural</h5>
-                        <p>Novas abordagens e o futuro da energia no setor agrícola.</p>
-                    </div>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
-    </div>
-    <div class="footer ">
-        <p>Todos os direitos reservados para agrinho 2025 - Festejando a conexão campo cidade.</p>
-    </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container">
+            <p>&copy; 2025 Agrinho - Festejando a conexão campo cidade. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"

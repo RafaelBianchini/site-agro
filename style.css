@@ -1,80 +1,128 @@
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; /* Adicionado um background geral mais claro */
 }
 
-.cabecalho{
-    color: white;
-    background-color: black;
-    text-align: center;
-    padding: 30px;
+header {
+    background-color: #28a745; /* Cor primária do Bootstrap (verde) */
 }
 
-.cabecalho h3{
-    color: rgb(206, 206, 8);
+header h3 {
+    color: #ffc107; /* Cor amarela para destacar o subtítulo */
 }
 
-p .alinha{
-    text-align: right;
-}
-.img-agro{
-    width: 300px;
+nav .nav-link {
+    color: white !important;
 }
 
-.br-3{
-    border-radius: 15px;
+nav .nav-link:hover {
+    color: #f8f9fa !important; /* Um branco levemente diferente no hover */
 }
 
-.img-card{
-    max-height: 250px;
+nav .active {
+    font-weight: bold;
 }
 
-.img-slide{
-    max-height: 400px;
+main {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px;
-}
-
-/* Estilos para a seção "O que é o Agrinho?" */
 .bg-light {
-    background-color: #f8f9fa !important;
+    background-color: #e9ecef !important; /* Um tom de cinza claro mais suave */
 }
 
 .lead {
-    font-size: 1.25rem;
+    font-size: 1.1rem; /* Um pouco menor para melhor leitura */
     font-weight: 300;
+    color: #6c757d; /* Cor de texto secundária do Bootstrap */
 }
 
-/* Estilos para a seção de objetivos */
-.text-center img {
-    margin-bottom: 1rem;
+/* Seção de Objetivos */
+.card.border-success {
+    border-width: 2px;
 }
 
-/* Estilos para a seção "Agrinho 2025" */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
+.card-title {
+    color: #28a745;
+    margin-bottom: 0.75rem;
 }
 
-/* Ajuste no espaçamento dos cards */
-.col-md-4 {
-    margin-bottom: 20px; /* Adiciona um espaço entre os cards em telas maiores */
+/* Seção Agrinho 2025 */
+.rounded {
+    border-radius: 0.5rem !important; /* Arredondamento padrão do Bootstrap */
 }
 
-/* Garante que os cards ocupem 100% da largura em telas menores */
-@media (max-width: 767.98px) {
-    .col-md-4 {
-        width: 100%;
+/* Seção O que podemos falar sobre a zona rural? */
+.text-end {
+    text-align: end !important;
+}
+
+/* Seção Saiba um pouco mais sobre cada área */
+.card-img-top {
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+    height: 200px; /* Altura fixa para manter os cards uniformes */
+}
+
+.card .btn-success {
+    width: 100%; /* Botão ocupar toda a largura do card */
+}
+
+/* Carousel */
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor leitura do texto */
+    padding: 15px;
+    border-radius: 0.25rem;
+}
+
+.carousel-caption h5 {
+    margin-bottom: 0.5rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    opacity: 0.7;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 20px 0; /* Aumentei um pouco o padding vertical */
+    position: relative; /* Para garantir que fique no final */
+    width: 100%;
+}
+
+/* Pequenos ajustes gerais */
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.row.row-cols-1 > .col,
+.row.row-cols-md-3 > .col {
+    margin-bottom: 20px; /* Espaçamento entre as colunas em todos os tamanhos */
+}
+
+@media (min-width: 768px) {
+    .text-md-center {
+        text-align: center;
     }
-}
-
-/* Mais um ajuste no espaçamento da seção de cards */
-.row.pt-5 > .col {
-    margin-bottom: 20px;
 }
